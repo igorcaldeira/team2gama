@@ -1,6 +1,6 @@
 <?php
 	if($_POST['email']){
-		$mysqli = new mysqli("mysql.enemto.top", "enemto", "GamAT2BH2016", "enemto");
+		$mysqli = new mysqli("localhost", "usuario", "senha", "banco");
 
 		if (mysqli_connect_errno()) {
 			printf("Ops! Aconteceu um erro. :(");
