@@ -21,13 +21,13 @@
 
 		$mysqli->close();
 		if($tipo == 1){
-			header("location:http://enemto.top/dicas.html");
+			header("location:http://enemto.top/dicas.php");
 		}else if($tipo == 2){
 			header("location:http://enemto.top/ebook/ebook-recursos-gratuitos-enem.pdf");
 		}else if($tipo == 3){
 			header("location:http://enemto.top/historias.php");
 		}else{
-			header("location:http://enemto.top/parabens.html");			
+			header("location:http://enemto.top/parabens.php");			
 		}
 		exit();
 	}
