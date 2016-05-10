@@ -27,7 +27,7 @@
 		}else if($tipo == 3){
 			header("location:http://enemto.top/historias.php");
 		}else{
-			setcookie("CookiePromocao", "ok");
+			setcookie("CookiePromocao", "ok", strtotime( '+7 days' ));
 			header("location:http://enemto.top/parabens.php");
 		}
 		exit();
