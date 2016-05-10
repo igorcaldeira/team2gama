@@ -10,16 +10,16 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="">
+		<meta name="description" content="Histórias verdadeiras que aconteceram com alguns vestibulandos e alunos no ENEM">
 		<meta name="author" content="">
 		<link rel="icon" href="favicon.ico">
 		<title>Conte sua história no ENEM | Enem Tô Top!</title>
 
 		<meta property="og:url"           content="http://enemto.top/historias.php"/>
 		<meta property="og:type"          content="website" />
-		<meta property="og:title"         content="Conte sua história no ENEM - Enem Tô Top!" />
-		<meta property="og:description"   content="" />
-		<meta property="og:image"         content="http://enemto.top/>" />
+		<meta property="og:title"         content="Conte sua história do ENEM - Enem Tô Top!" />
+		<meta property="og:description"   content="Histórias verdadeiras que aconteceram com alguns vestibulandos e alunos no ENEM." />
+		<meta property="og:image"         content="http://enemto.top/images/historia_enem.png>" />
 
 		<!-- Bootstrap core CSS -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,13 +30,19 @@
 	</head>
 	<body>
 		<?php include "nav.html";?>
-	    <center><a href="index.php"><img id="landing-post-logo" src="images/logoTrofeu.png" width="400px"></a></center>
+	    
+        
+        <div id="landig-page-historias" >
+            <center>
+                <img id="landing-post-logo" src="images/historia_enem.png" width="550px">
+            </center>
+        </div>
+        
 		<div class="container">
-		<header>
-		</header>
 		<section>
 			<div class="row">
 				<div class="col-md-8">
+						<br>
 						<div class="well">
 						    <center>
 						        <h1 class="modal-title">Conte algo que aconteceu com você no ENEM.&nbsp; <span class="fa fa-hand-peace-o fa-lg"></span></h1>

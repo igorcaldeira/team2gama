@@ -424,3 +424,9 @@ footer .footer-bottom {
     margin-bottom: -120px;
     width: 350px;
 }
+
+#landig-page-historias {
+    background-color: rgb(28, 114, 94);  
+    height: 330px;
+    margin-bottom: 40px;
+}
