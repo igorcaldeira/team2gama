@@ -32,14 +32,14 @@
 
 		<section id="conteudo">
 			<div class="row">
-        <div class="col-md-8">
-            <?php include "lista_postagens.php";?>
-        </div>
+		        <div class="col-md-8">
+		            <?php include "lista_postagens.php";?>
+		        </div>
 
-        <div class="col-md-4 sidebar-gutter">
-          <?php include "sidebar.php" ?>
-        </div>
-        
+		        <div class="col-md-4 sidebar-gutter">
+		          <?php include "sidebar.php" ?>
+		        </div>
+	        
 			</div>
 		</section>
 		</div>

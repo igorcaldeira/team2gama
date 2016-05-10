@@ -1,7 +1,7 @@
 <?php
-	if($_POST['email'] and $_POST['escolaridade']){
-		$mysqli = new mysqli('localhost', 'usuario', 'senha', 'banco');
-		
+	if($_POST['email']){
+		$mysqli = new mysqli("mysql.enemto.top", "enemto", "GamAT2BH2016", "enemto");
+
 		if (mysqli_connect_errno()) {
 			printf("Ops! Aconteceu um erro. :(");
 		    exit();
@@ -15,11 +15,21 @@
 			printf("Ops! Aconteceu um erro. :(");
 		}
 
+
+		if($_POST['historia']){
+			$historia = utf8_decode(addslashes($_POST['historia']));
+			if (!$mysqli->query("INSERT INTO historia (nome, historia) values ('$nome', '$historia')")) {
+				printf("Ops! Aconteceu um erro. :(");
+			}
+		}
+
 		$mysqli->close();
 		if($tipo == 1){
 			header("location:http://enemto.top/dicas.html");
 		}else if($tipo == 2){
 			header("location:http://enemto.top/ebook/ebook-recursos-gratuitos-enem.pdf");
+		}else if($tipo == 3){
+			header("location:http://enemto.top/historias.php");
 		}else{
 			header("location:http://enemto.top/parabens.html");			
 		}
