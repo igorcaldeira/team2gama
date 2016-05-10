@@ -42,8 +42,12 @@
     </div>
   </div>
 </div>
-<script>
-  (function() {
-      setTimeout(function(){ $('#myModal').modal('toggle'); },  5000);
-  })();
-</script>
+<?php
+  if(!$_COOKIE['CookiePromocao']){
+    echo "<script>
+          (function() {
+              setTimeout(function(){ $('#myModal').modal('toggle'); },  5000);
+          })();
+        </script>";
+  }
+?>
