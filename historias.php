@@ -42,7 +42,6 @@
 		<section>
 			<div class="row">
 				<div class="col-md-8">
-						<br>
 						<div class="well">
 						    <center>
 						        <h1 class="modal-title">Conte algo que aconteceu com você no ENEM.&nbsp; <span class="fa fa-hand-peace-o fa-lg"></span></h1>
