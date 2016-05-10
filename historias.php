@@ -30,7 +30,7 @@
 	</head>
 	<body>
 		<?php include "nav.html";?>
-	    <center><a href="index.php"><img id="landing-post-logo" src="images/logoFolha.png" width="400px"></a></center>
+	    <center><a href="index.php"><img id="landing-post-logo" src="images/logoTrofeu.png" width="400px"></a></center>
 		<div class="container">
 		<header>
 		</header>
