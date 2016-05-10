@@ -1,9 +1,5 @@
 <?php
-    $mysqli = new mysqli("mysql.enemto.top", "enemto", "GamAT2BH2016", "enemto");
-    if (mysqli_connect_errno()) {
-      printf("Ops! Aconteceu um erro. :(");
-      exit();
-    }
+    include "mysql_conn.php";
 
     $num = $_POST['pag']*5;
     $resultado = $mysqli->query("SELECT * FROM noticia ORDER BY data DESC");

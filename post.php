@@ -2,14 +2,8 @@
 	if(!$_GET['id']){
 		header("location:http://enemto.top");
 	}
-    $mysqli = new mysqli("mysql.enemto.top", "enemto", "GamAT2BH2016", "enemto");
-
-    /* check connection */
-    if (mysqli_connect_errno()) {
-        //printf("Connect failed: %s\n", mysqli_connect_error());
-      printf("Ops! Aconteceu um erro. :(");
-        exit();
-    }
+  
+    include "mysql_conn.php";
 
     $resultado = $mysqli->query("SELECT * FROM noticia WHERE id_noticia = ".$_GET['id']);
     $noticia = mysqli_fetch_array($resultado, MYSQLI_BOTH);

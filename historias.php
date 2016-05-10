@@ -1,9 +1,5 @@
-<?php
-    $mysqli = new mysqli("mysql.enemto.top", "enemto", "GamAT2BH2016", "enemto");
-    if (mysqli_connect_errno()) {
-        printf("Ops! Aconteceu um erro. :(");
-        exit();
-    }
+<?php 
+    include "mysql_conn.php";
 
     $resultado = $mysqli->query("SELECT * FROM historia ORDER BY data DESC");
 ?>
