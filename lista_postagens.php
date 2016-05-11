@@ -1,12 +1,13 @@
 <?php
     include "mysql_conn.php";
-
+    
     $num = $_POST['pag']*5;
-    $resultado = $mysqli->query("SELECT * FROM noticia ORDER BY data DESC");
+    $query = "SELECT * FROM noticia WHERE data < CURRENT_TIMESTAMP() ORDER BY data DESC";
+    $resultado = $mysqli->query($query);
     $registros = $resultado->num_rows;
     $maxpag = ceil($registros / 5);
 
-    $resultado = $mysqli->query("SELECT * FROM noticia ORDER BY data DESC LIMIT ".$num.", 5");
+    $resultado = $mysqli->query("SELECT * FROM noticia WHERE data < CURRENT_TIMESTAMP() ORDER BY data DESC LIMIT ".$num.", 5");
     while($noticia = mysqli_fetch_array($resultado, MYSQLI_BOTH)) {
       $url = "post.php?id=".$noticia['id_noticia']."&titulo=".utf8_encode($noticia['titulo']);
 ?>
