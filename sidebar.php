@@ -17,6 +17,14 @@
       <a href="post.php?id=5" class="btn btn-success btn-block"><b>BAIXAR EBOOK AGORA!</b></a>
     </div>
   </div>
+  <div class="sidebar-widget">
+    <h3 class="sidebar-title">Ganhe 1 Mês Grátis de Aulas</h3>
+    <div class="widget-container widget-about">
+      <a href="post.php?id=5"><img src="images/noticia/promocao.png" alt=""></a>
+      <br><br>
+      <a href="post.php?id=12" class="btn btn-success btn-block"><b>EU QUERO GANHAR!</b></a>
+    </div>
+  </div>
 
   <?php include "quero_receber_atualizacao.html";?>
   
