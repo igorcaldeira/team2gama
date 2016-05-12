@@ -43,10 +43,10 @@
   </div>
 </div>
 <?php
-  if(!$_COOKIE['CookiePromocao']){
+  if(!$_COOKIE['CookiePromocao'] and !$_POST['pag']){
     echo "<script>
           (function() {
-              setTimeout(function(){ $('#myModal').modal('toggle'); },  5000);
+              setTimeout(function(){ $('#myModal').modal('toggle'); },  8000);
           })();
         </script>";
   }
