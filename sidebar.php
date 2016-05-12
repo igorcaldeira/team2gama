@@ -19,7 +19,7 @@
   <div class="sidebar-widget">
     <h3 class="sidebar-title">Sobre Nós</h3>
     <div class="widget-container widget-about">
-      <a href="post.html"><img src="images/smallLogo.JPG" alt="ENEM TÔ TOP"></a>
+      <a href="sobre.php"><img src="images/smallLogo.JPG" alt="ENEM TÔ TOP"></a>
       <h4>Enem Tô Top</h4>
       <div class="author-title">Porque nós acreditamos em você</div>
       <p>O Enem Tô Top é pra você que sofre com a vida de vestibulando! A gente já passou por isso e pra te ajudar criamos esse portal, pra você encontrar dicas de como sobreviver a essa fase crítica e facilitar seu caminho pro sucesso!</p>
