@@ -32,7 +32,7 @@
       $num = $_POST['pag'] + 1;
       $proxima = '<form  name="proxpag" method="post" action="index.php">
                       <input type="hidden" name="pag" id="pag" value="'.$num.'">
-                       <button type="submit" class="btn btn-success btn-block" style="width: 70%"><b>Próxima Página </b> <span class="fa fa-arrow-right fa-lg"></span></button>
+                       <button type="submit" class="btn btn-success btn-block" style="width: 70%"> <span class="fa fa-arrow-right fa-lg"><b>Próxima Página </b></span></button>
                   </form>'; 
     }
     if($_POST['pag'] != 0){
