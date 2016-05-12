@@ -22,6 +22,8 @@
 		<meta property="og:description" content="Conteúdo que gera impacto sobre o ENEM, Exame Nacional do Ensino Médio. As melhores notícias sobre o enem, inscrições, provas, gabarito, Resultado, teste vocacional e ebook.">
 		<meta property="og:url" content="http://enemto.top">
 		<meta property="og:site_name" content="ENEM TÔ TOP">
+		<meta property="og:image" content="http://enemto.top/images/smallLogo.JPG" />
+
 
 
 		<title>Enem Tô Top | Conteúdo que gera impacto</title>
@@ -36,7 +38,7 @@
 		<?php include "nav.html"; ?>
     <div id="landig-page" class="row">
         <br>
-        <center><a href="index.php"><img id="landing-page-logo" src="images/logoTrofeu.png"></a></center>
+        <center><a href="index.php"><img id="landing-page-logo" src="images/logoTrofeu.png" alt="ENEM TÔ TOP"></a></center>
     </div>
     <div id="landig-page-form" class="row">
         Vida de vestibulando tá difícil? &nbsp;
@@ -49,7 +51,8 @@
 		<section id="conteudo">
 			<div class="row">
 		        <div class="col-md-8">
-		            <?php include "lista_postagens.php";?>
+		        	<center><h1 class="sidebar-title">Conteúdo que gera impacto</h1></center>
+		        	<?php include "lista_postagens.php";?>
 		            <br><br>
 		        	<?php include "quero_receber_atualizacao.html";?>
 		        </div>
