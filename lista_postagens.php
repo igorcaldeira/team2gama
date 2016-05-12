@@ -16,7 +16,7 @@
           <a href="<?php echo $url; ?>"><img src="images/noticia/<?php echo $noticia['img']; ?>" alt="<?php echo utf8_encode($noticia['titulo']); ?>"></a>
         </div>
         <div class="blog-post-body">
-          <h2><a href="<?php echo $url; ?>"></a><?php echo utf8_encode($noticia['titulo']); ?></h2>
+          <h1><a href="<?php echo $url; ?>"></a><?php echo utf8_encode($noticia['titulo']); ?></h1>
           <div class="post-meta"><span><?php echo "por ".utf8_encode($noticia['autor']); ?></span>/<span><i class="fa fa-clock-o"></i><?php echo date("d/m/Y G:i ", strtotime("$noticia[data]")); ?></span></div>
           <p><?php echo utf8_encode($noticia['resumo']); ?></p>
           <div class="read-more"><a href="<?php echo $url; ?>">Continue Lendo</a></div>
