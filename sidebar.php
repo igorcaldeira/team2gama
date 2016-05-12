@@ -1,8 +1,9 @@
+
 <aside>
   <div class="sidebar-widget">
-    <h3 class="sidebar-title">Ganhe 1 Mês Grátis de Aulas</h3>
+    <h3 class="sidebar-title">Ganhe 1 Mês de Aulas Grátis</h3>
     <div class="widget-container widget-about">
-      <a href="post.php?id=5"><img src="images/noticia/promocao.png" alt=""></a>
+      <a href="post.php?id=12"><img src="images/noticia/promocao.png" alt="PROMOÇÃO, GANHE 1 MÊS DE AULAS GRÁTIS NO DESCOMPLICA"></a>
       <br><br>
       <a href="post.php?id=12" class="btn btn-success btn-block"><b>EU QUERO GANHAR!</b></a>
     </div>
@@ -10,7 +11,7 @@
   <div class="sidebar-widget">
     <h3 class="sidebar-title">Baixe Logo Nosso Ebook</h3>
     <div class="widget-container widget-about">
-      <a href="post.php?id=5"><img src="images/noticia/ebook_guia_recursos.png" alt=""></a>
+      <a href="post.php?id=5"><img src="images/noticia/ebook_guia_recursos.png" alt="EBOOK - GUIA DOS MELHORES RECURSOS GRATUITOS PARA SE PREPARAR PRO ENEM 2016"></a>
       <br><br>
       <a href="post.php?id=5" class="btn btn-success btn-block"><b>BAIXAR EBOOK AGORA!</b></a>
     </div>
