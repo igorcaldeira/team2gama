@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Language" content="pt-br">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="">
-		<meta name="author" content="">
+		<meta name="description" content="Conteúdo que gera impacto sobre o ENEM, Exame Nacional do Ensino Médio. As melhores notícias sobre o enem, inscrições, provas, gabarito, Resultado, teste vocacional e ebook.">
+		<meta name="author" content="ENEM TÔ TOP">
 		<link rel="icon" href="favicon.ico">
-		<title>Enem Tô Top</title>
+		<meta name="robots" content="index,follow">
+		<meta name="distribution" content="global">
+		<meta name="rating" content="general">
+		<meta name="URL" content="http://enemto.top">
+		<meta name="copyright" content="ENEM TÔ TOP">
+		<meta name="keywords" content="enem 2016, enem 2016 notícias, educação, exame, prova, enem, inscrições, estudo, entrevista, ebook, teste vocacional">
+
+		<meta property="og:locale" content="pt_BR">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Enem Tô Top | Conteúdo que gera impacto">
+		<meta property="og:description" content="Conteúdo que gera impacto sobre o ENEM, Exame Nacional do Ensino Médio. As melhores notícias sobre o enem, inscrições, provas, gabarito, Resultado, teste vocacional e ebook.">
+		<meta property="og:url" content="http://enemto.top">
+		<meta property="og:site_name" content="ENEM TÔ TOP">
+
+
+		<title>Enem Tô Top | Conteúdo que gera impacto</title>
 		<!-- Bootstrap core CSS -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<!-- Custom styles for this template -->
